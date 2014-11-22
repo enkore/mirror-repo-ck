@@ -8,7 +8,7 @@ Mirrors [repo-ck](http://repo-ck.com/) every night (around 05:00 UTC). Add this 
     [repo-ck]
     Server = http://pstore.enkore.de/mirrors/repo-ck/$arch
     
-## Arch mirroring tooling
+## Tooling for mirroring Arch repositories
 
 - `dblist.py` outputs a list of URLs for a given Arch repository. It takes three command line arguments:
   1. Repository name (e.g. `repo-ck`)
