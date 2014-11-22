@@ -1,12 +1,7 @@
 mirror-repo-ck
 ==============
 
-[![Build Status](http://golem.enkore.de/buildStatus/icon?job=mirror-repo-ck)](http://golem.enkore.de/job/mirror-repo-ck/)
-
-Mirrors [repo-ck](http://repo-ck.com/) every night (around 05:00 UTC). Add this to your pacman.conf to use this mirror:
-
-    [repo-ck]
-    Server = http://pstore.enkore.de/mirrors/repo-ck/$arch
+Notice: This mirror is not publicly available anymore at the repository owners' request.
     
 ## Tooling for mirroring Arch repositories
 
