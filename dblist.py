@@ -11,7 +11,7 @@ DB_URL = "%s/%s.db" % (REPO_URL, REPO_NAME)
 
 db_response = urllib.request.urlopen(DB_URL)
 
-db_response = io.BytesIO(db_response.readall())
+db_response = io.BytesIO(db_response.read())
 
 packages = []
 
